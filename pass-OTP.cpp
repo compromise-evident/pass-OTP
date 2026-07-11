@@ -15,9 +15,7 @@ int main()
 	
 	std::cout << "\n(1) Encrypt file"
 	          << "\n(2) Decrypt file"
-	
 	          << "\n\nOption: ";
-	
 	std::string o; std::getline(std::cin, o); if((o != "1") && (o != "2")) {std::cout << "\nBad option.\n"; return 0;}
 	
 	//Gets path.
