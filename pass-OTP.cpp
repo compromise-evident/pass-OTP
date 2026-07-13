@@ -28,7 +28,7 @@ int main()
 	if(password.empty()) {std::cout << "\nNothing entered.\n"; return 0;}
 	
 	//Generates pseudorandomness. From rolling-code.cpp.
-	std::string output_file_name = (path + "_encrypted"); if(o == "2") {output_file_name = (path + "_decrypted");}
+	std::string output_file_name = path + "_encrypted"; if(o == "2") {output_file_name = path + "_decrypted";}
 	in_stream.open(path);              if( !in_stream) {std::cout << "\nCan't open file for reading. (Generates pseudorandomness).\n"; return 1;}
 	out_stream.open(output_file_name); if(!out_stream) {std::cout << "\nCan't open file for writing. (Generates pseudorandomness).\n"; return 1;}
 	SHA_512_input = password;
