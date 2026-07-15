@@ -1,4 +1,6 @@
-/*Version 5.0.0                                                                 Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+/*Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+
+Version 5.0.0
 Secure One-time pad for file encryption with a password. No password
 is rejected upon decryption--giving false plausible output. */
 
